@@ -1,8 +1,37 @@
 <!DOCTYPE html>
-<html>
-<head><title>Para Kazanan AI Sistemi</title></head>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Kazanan AI Sistemi</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            padding: 50px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
 <body>
-<h1>🚀 Para Kazanan AI Sistemi</h1>
-<p>Tam otomatik para kazanma sistemi aktif!</p>
+    <div class="container">
+        <h1>🚀 Para Kazanan AI Sistemi</h1>
+        <p>Tam otomatik para kazanma sistemi aktif!</p>
+        <p>💰 Günlük 6x içerik üretimi</p>
+        <p>📱 Çoklu platform otomasyonu</p>
+        <p>📊 Analytics tracking aktif</p>
+        <p>⏰ Son güncelleme: <span id="time"></span></p>
+    </div>
+    
+    <script>
+        document.getElementById('time').textContent = new Date().toLocaleString('tr-TR');
+    </script>
 </body>
 </html>
